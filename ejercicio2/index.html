@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persona</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Crea una nueva persona</legend>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre">
+            <label for="edad">Edad</label>
+            <input type="text" id="edad">
+            <label for="sexo">Sexo</label>
+            <select id="sexo">
+                <option value="h">Hombre</option>
+                <option value="m">Mujer</option>
+                <option value="bi">Bisexual</option>
+                <option value="hs">Homosexual</option>
+                <option value="tr">Trans</option>
+            </select>
+            <label for="peso">Peso</label>
+            <input type="text" id="peso">
+            <label for="altura">Altura</label>
+            <input type="text" id="altura">
+        </fieldset>
+        <button id="crearPersona">CrearPersona</button>
+    </form>
+</body>
+<script type="module" src="./src/script.js"></script>
+</html>
