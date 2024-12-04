@@ -2,7 +2,7 @@ import Escenario from './Escenario.js';
 import Personaje from './Personaje.js';
 import Protagonista from './Protagonista.js';
 
-class Cuento {
+export default class Cuento {
     // Propiedades propias de la clase
     _titulo;
     _autor;
