@@ -20,4 +20,5 @@ import Escenario from './Escenario.js';
         cuento.introducirEscenario(escenario);
     }
 
-    buttonAgregarEscenario.addE
+    buttonAgregarEscenario.addEventListener('click', agregarEscenario);
+}
